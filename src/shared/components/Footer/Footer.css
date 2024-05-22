@@ -1,0 +1,80 @@
+/* footer */
+.ftr-div1 {
+	height: 5rem;
+	margin: 2% -80px 0 -80px;
+	padding: 0 50px 0 50px;
+	box-shadow: 0 0 5px 0;
+	display: flex;
+	position: sticky;
+	overflow: hidden;
+	align-items: flex-start;
+	justify-content: space-between;
+	color: white;
+}
+#ftr-btn-lin {
+	background-color: white;
+	border: 0;
+	margin-left: 20px;
+	box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.5),
+		10px 10px 15px rgba(70, 70, 70, 0.12);
+	border-radius: 10px;
+}
+#ftr-btn-lin img {
+	height: 44px;
+	width: 44px;
+	margin: 0 0 -14px 0;
+}
+#ftr-btn-git {
+	background-color: white;
+	border: 0;
+	margin-left: 20px;
+	box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.5),
+		10px 10px 15px rgba(70, 70, 70, 0.12);
+	border-radius: 10px;
+}
+#ftr-btn-git img {
+	height: 44px;
+	width: 44px;
+	margin: 0 0 -14px 0;
+}
+#ftr-h2 {
+	color: black;
+	font-size: 20px;
+}
+.ftr-vst-a {
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+	margin: 0 40px;
+}
+@media only screen and (max-width: 480px) {
+.ftr-div1 {
+    position: static;
+    height: 3rem;
+    margin: 0 -11px 0 -11px;
+    padding: 0 10px 0 10px;
+}
+#ftr-btn-lin {
+    margin-left: 10px;
+    box-shadow: none;
+}
+#ftr-btn-lin img {
+    height: 32px;
+    width: 32px;
+}
+#ftr-btn-git {
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: none;
+}
+#ftr-btn-git img {
+    height: 32px;
+    width: 32px;
+}
+#ftr-h2 {
+    font-size: 15px;
+}
+.ftr-vst-a {
+    display: none;
+}
+}

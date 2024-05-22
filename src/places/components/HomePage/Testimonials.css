@@ -1,0 +1,65 @@
+/* Testimonial */
+.testi-pp-div {
+	background-color: #f5f5f7;
+	padding: 6rem;
+}
+.testi-parent-div {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 50px;
+}
+.testi-child-div {
+	background-color: white;
+	box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.5),
+		10px 10px 15px rgba(70, 70, 70, 0.12),
+		8px -6px 20px rgba(255, 255, 255, 0.5),
+		-9px -7px 9px 0px rgba(70, 70, 70, 0.12);
+	margin: 0 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 3%;
+	border-radius: 15px;
+}
+.testi-child-div h3 {
+	color: black;
+}
+.testi-child-div h4 {
+	margin: -5px 0 0px 0;
+}
+.testi-child-div p {
+	font-size: 16px;
+}
+.testi-child-div img {
+	height: 100px;
+	width: 100px;
+}
+
+@media only screen and (max-width: 480px) {
+    .testi-pp-div {
+		padding: 10px;
+	}
+	.testi-parent-div {
+		grid-template-columns: 1fr;
+		gap: 10px;
+	}
+	.testi-child-div {
+		margin: 1rem 1rem;
+
+		padding: 5%;
+		border-radius: 10px;
+	}
+	.testi-child-div h3 {
+		font-size: 13px;
+	}
+	.testi-child-div h4 {
+		font-size: 11px;
+	}
+	.testi-child-div p {
+		font-size: 11px;
+	}
+	.testi-child-div img {
+		height: 50px;
+		width: 50px;
+	}
+}

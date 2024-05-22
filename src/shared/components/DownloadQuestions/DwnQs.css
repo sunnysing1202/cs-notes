@@ -1,0 +1,68 @@
+.web-qs {
+	display: grid;
+	grid-template-columns: 8fr 8fr 8fr;
+	grid-template-rows: 1fr 1fr;
+	gap: 28px;
+	background-color: #f5f5f7;
+	padding: 75px;
+	border-radius: 25px;
+}
+.web-qs-btn {
+	background-color: white;
+	color: white;
+	height: 28px;
+	border: 0;
+	border-radius: 12px;
+	font-size: 12px;
+	margin-left: 20rem;
+}
+
+@media only screen and (max-width: 480px) {
+    .dwn-nt-btn {
+		background-color: #14a44d;
+		color: white;
+		height: 28px;
+		border: 0;
+		border-radius: 8px;
+		font-size: 12px;
+		margin-top: 0px;
+	}
+	.web-qs {
+		display: grid;
+		grid-template-columns: 1fr;
+
+		gap: 18px;
+		background-color: #f5f5f7;
+		padding: 5px;
+		border-radius: 0px;
+	}
+	#web-qs-pic {
+		margin: auto 1rem;
+	}
+	#web-qs-pic img {
+		width: 50px;
+		height: 50px;
+	}
+	.dwn-qs {
+		margin: 0;
+		font-size: 12px;
+		border: 0;
+	}
+	.dwn-qs img {
+		width: 28px;
+		height: 28px;
+	}
+	.web-qs-btn {
+		background-color: white;
+		color: white;
+		height: 28px;
+		border: 0;
+		border-radius: 12px;
+		font-size: 12px;
+		margin-left: 150px;
+	}
+	.web-qs-btn img {
+		height: 28px;
+		width: 28px;
+	}
+}
